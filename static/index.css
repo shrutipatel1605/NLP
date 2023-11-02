@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Montserrat:ital,wght@0,300;0,400;1,200&family=Roboto:wght@300&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gentium Plus', serif;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    background-color: #009688;
+    color: aliceblue;
+    height: 100px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text {
+    width: 60%;
+    margin: 0 auto;
+  }
+body{
+    background-color: #009688;
+}
+.mid{
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    /* height: 150px; */
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap as needed */
+  }
+  
+  .resetbut, .submitbut {
+    width: 100px; /* Adjust the button width as needed */
+    height: 30px;
+    color: aliceblue;
+    border: none;
+    transition: box-shadow 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .resetbut:hover, .submitbut:hover {
+    box-shadow: 5px 10px 8px #888888; /* Add black shadow on hover */
+  }
+  .resetbut{
+    background-color:#687c8c ;
+  }
+  .submitbut{
+  background-color: #08948c;
+  }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    margin-left: auto; /* Push the icon to the right */
+}
+/* .Heading {
+    text-align: center;
+    background-color: #009688;
+    color: aliceblue;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .text {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .p {
+    text-align: center;
+  }
+  
+ 
+  .numOfLines {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  
+  .resetbut, .submitbut {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .input-field {
+    text-align: center;
+  } */

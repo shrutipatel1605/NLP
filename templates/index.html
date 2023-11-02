@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet"  href="{{ url_for('static', filename='index.css') }}">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="Heading">
+        <h1>Text Summarizer</h1>
+    </div>
+    <div class="mid">
+    <form method="POST" action="/process" class="form">
+        <h3>Enter your text here</h4>
+        <textarea class="text" name="input_text" cols="5" rows="10"  required="true" placeholder="Enter Text Here" style="width:60%"></textarea>
+                
+             <br>
+             <br>
+             
+             <h3>Enter Number of Lines</h4>
+             <textarea class="numOfLines"  name="numOfLines" cols="5" rows="1"  required="true" placeholder="Enter Number of Lines" style="width:60%"></textarea>
+             <br> 
+             <div class="button-container">
+             <button class="resetbut" type="reset" value="reset">Clear</button>
+
+             <button class="submitbut" type="submit" value="reset">Summarize</button>
+             </div>
+              <br>
+              <br>
+
+              <div class="input-field">
+                        
+                   
+            </div>
+    </form></div>
+    </div>
+    <div class="footer">
+        <h2>About the App</h2>
+        <div class="icon"> 
+            <a href="https://github.com/alaminmagaga" target="_blank" class="white-text">
+                <i class="fa fa-github-square fa-4x"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+    <link rel="stylesheet" href="result.css"> <!-- Link your custom CSS -->
+</head>
+<body>
+
+<div class="w3-teal-header">
+    <h1>Text Summarization Result</h1>
+</div>
+
+<div class="w3-container">
+    <div class="w3-card w3-half">
+        <h5>Original Text</h5>
+        <p>{{ org_text }}</p>
+    </div>
+
+    <div class="w3-card w3-half">
+        <h5>Summarized Text</h5>
+        <p>{{ text_summary }}</p>
+    </div>
+</div>
+
+<div class="w3-back-button">
+    <a href="{{ url_for('summarize') }}" style="text-decoration: none">
+        <button class="w3-btn w3-teal w3-round-large" style="width: 10%; text-decoration: none;" type="submit" value="reset">Back</button>
+    </a>
+</div>
+
+<div class="w3-footer">
+    <div class="w3-about-app">
+        <div>
+            <h4>About the App</h4>
+            <p>Your app description here.</p>
+            <p>Made by <a href="https://twitter.com/YourUsername">Your Name</a></p>
+            <p>Founder <a href="https://twitter.com/YourCompany">Your Company</a></p>
+        </div>
+        <div class="w3-icon-links">
+
+            <a href="https://github.com/yourgithub" target="_blank">
+                <i class="fa fa-github-square fa-4x"></i>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* result.css */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Montserrat:ital,wght@0,300;0,400;1,200&family=Roboto:wght@300&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+}
+/* Style the header */
+.w3-teal-header {
+    background-color: #009688;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Style the main content container */
+.w3-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w3-card {
+    width: 48%; /* Adjust the width as needed, leaving space for margin */
+    margin-right: 2%; /* Add a small gap between the cards */
+}
+
+/* Media query to adjust styles on smaller screens if needed */
+@media (max-width: 768px) {
+    .w3-container {
+        flex-direction: column;
+    }
+
+    .w3-card {
+        width: 100%; /* Full width on smaller screens */
+        margin-right: 0; /* No gap between the cards */
+    }
+}
+
+/* Style the "Back" button */
+.w3-back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the footer section */
+.w3-footer {
+    background-color: #009688;
+    padding: 24px;
+    color: white;
+}
+
+/* Style the icon links */
+.w3-icon-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.w3-icon-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.w3-icon-links i {
+    font-size: 2rem;
+}
+
+/* Style the "About the App" section */
+.w3-about-app {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
